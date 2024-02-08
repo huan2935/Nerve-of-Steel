@@ -20,15 +20,15 @@ while True:
     if ready_prompt.upper() == "Y":
         print("All players stand! Be the last person to sit down before the timer ends.")
     
-# random time between 5 to 25 seconds
-        set_time = random.randint(5,5)
+        # random time between 5 to 25 seconds
+        set_time = random.randint(5,25)
 
         time.sleep(set_time)
         im.show()
         print("Times Up! The last person to sit down wins.")
 
     else: 
-        print("Prepare for Nerve of Steel")
+        print("Prepare for Nerve of Steel.")
 
 
     
