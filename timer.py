@@ -29,6 +29,10 @@ while True:
 
     else: 
         print("Prepare for Nerve of Steel.")
+    
+    play_again_prompt = input("Do you want to play Nerve of Steel again? Y or N")
+    if play_again_prompt.upper() != "Y":
+        break
 
 
     
