@@ -25,7 +25,7 @@ while True:
 
         time.sleep(set_time)
         im.show()
-        print("Times Up! The last person to sit down wins.")
+        print("Times Up! Players still standing are eliminated. The last person to sit down wins!")
 
     else: 
         print("Prepare for Nerve of Steel.")
